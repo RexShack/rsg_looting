@@ -12,4 +12,7 @@ server_scripts {
     'server/server.lua',
 }
 
+dependency 'qbr-core' -- https://github.com/qbcore-redm-framework/qbr-core
+dependency 'rsg_alerts' -- https://github.com/RexShack/rsg_alerts
+
 lua54 'yes'
